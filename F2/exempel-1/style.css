@@ -1,0 +1,26 @@
+body {
+    /*background-color: green;*/
+    font-family: Helvetica, sans-serif;
+}
+
+h1,h2 {
+    font-weight: bold;
+    color: slateblue;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+a {
+    color: rgb(30,144,255);
+}
+
+#ingridients {
+    background-color: #E6E6FA;
+}
+
+#instructions {
+    border: lavender 1px solid;
+    border-radius: 5px;
+}
