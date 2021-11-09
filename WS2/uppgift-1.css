@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+header,nav,main,footer {
+    border: 1px solid black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+header,footer {
+    width: 100%;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top:10px;
+}
+main {
+    width:76%;
+    min-height: 600px;
+}
+
+nav {
+    width:23%;
+    min-height: 600px;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
