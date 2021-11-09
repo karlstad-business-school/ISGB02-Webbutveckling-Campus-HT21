@@ -1,11 +1,13 @@
 body {
     /*background-color: green;*/
     font-family: Helvetica, sans-serif;
+    margin: 25px;
 }
 
 h1,h2 {
     font-weight: bold;
     color: slateblue;
+    margin-bottom: 8px;
 }
 
 h2 {
@@ -16,11 +18,22 @@ a {
     color: rgb(30,144,255);
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #ingridients {
     background-color: #E6E6FA;
+
 }
 
 #instructions {
     border: lavender 1px solid;
     border-radius: 5px;
+}
+
+.left-col {
+    width:40%;
+
 }
