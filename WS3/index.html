@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <title>Kodexempel</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  </head>
+  <body>
+    <main>
+      <h1>Beställ vår snygga t-shirt! <i class="fas fa-tshirt"></i></h1>
+
+      <form>
+        <div class="field">
+          <label for="name">Ditt namn:</label>
+          <input id="name" type="text" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Din e-postadress:</label>
+          <input id="email" type="email" placeholder="namn@example.com">
+        </div>
+
+        <div class="field">
+          <label for="color">Färg:</label>
+          <select id="color">
+            <option>Röd</option>
+            <option>Blå</option>
+            <option>Grön</option>
+            <option>Beige</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="amount">Antal:</label>
+          <input id="amount" type="number" min="1" value="1">
+        </div>
+
+        <fieldset class="field">
+          <legend>Frakt</legend>
+
+          <span class="radio">
+            <input id="express-shipping" type="radio" name="shipping">
+            <label for="express-shipping">Expresspaket</label>
+          </span>
+
+          <span class="radio">
+            <input id="regular-shipping" type="radio" name="shipping">
+            <label for="regular-shipping">Postpaket</label>
+          </span>
+        </fieldset>
+
+        <div class="field">
+          <label for="misc">Övrigt:</label>
+          <textarea id="misc" rows="8"></textarea>
+        </div>
+
+        <div class="field">
+          <input id="accept-terms" type="checkbox" required> <label for="accept-terms">Jag godkänner köpvillkoren</label>
+        </div>
+        <button type="reset"><i class="fas fa-flushed"></i> Rensa</button>
+        <button type="submit"><i class="fas fa-shipping-fast"></i> Skicka</button>
+        <div style="clear: both;"></div>
+
+
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|ZCOOL+KuaiLe');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: block;
+    width: 40%;
+    min-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-family: "ZCOOL KuaiLe";
+    font-size: 300%;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+form {
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+    border: 1px solid silver;
+    border-radius: 0.5rem;
+    padding: 16px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.125);
+}
+
+.field {
+    margin-bottom: 16px;
+    text-align:left;
+}
