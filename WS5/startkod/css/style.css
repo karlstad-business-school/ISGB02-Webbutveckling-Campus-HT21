@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|ZCOOL+KuaiLe');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#error {
+  background-color: rosybrown;
+  font-size: 1.2rem;
+  text-align: center;
+}
