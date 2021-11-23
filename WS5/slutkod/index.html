@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <title>Kodexempel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="logotyp">
+      <h1>Min frimärkssamling</h1>
+    </header>
+    <main>
+      <div id="error"></div>
+      <article>
+        <h2>Registrera nya frimärken</h2>
+        <form>
+          <fieldset>
+            <legend>Lägg in ett nytt frimärke</legend>
+            <div class="field">
+              <label for="name">Frimärkets namn <i>(min 5 tecken)</i>:</label>
+              <input id="name" type="text" placeholder="Skriv frimärkets namn">
+            </div>
+            <div class="field">
+              <label for="age">Frimärkets ålder <i>(tal mellan 0 och 200)</i>:</label>
+              <input id="age" type="text" placeholder="Skriv frimärkets ålder">
+            </div>
+            <div class="field">
+              <label for="value">Frimärkets värde <i>(tal större än 0)</i>:</label>
+              <input id="value" type="text" placeholder="Skriv frimärkets värde">
+            </div>
+            <div class="field">
+              <label for="color">Frimärkets färg:</label>
+              <select id="color">
+                <option>Röd</option>
+                <option>Blå</option>
+                <option>Grön</option>
+                <option selected>Beige</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="historia">Berätta om frimärkets historia <i>(minst 20 tecken)</i>:</label>
+              <textarea id="historia" rows="5" placeholder="Berätta om frimärket i fritext"></textarea>             
+            </div>
+            <button type="button" id="addStamp"><i class="fas fa-plus-square"></i>&nbsp;&nbsp;&nbsp;Lägg till i samling</button>
+          </fieldset>
+        </form>
+      </article>
+      <article>
+        <h2>Aktuella frimärken</h2>
+        <p>Alla min senaste fynd, sorterade med senaste inlagda överst.</p>
+        <div id="samling"></div>
+      </article>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
